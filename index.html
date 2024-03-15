@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coinbase WebSocket App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1><font color="white">Coinbase WebSocket App</font></h1>
+        <div class="buttons">
+            <button id="connectTicker" class="btn ticker">Connect Ticker</button>
+            <button id="connectMatches" class="btn matches">Connect Matches</button>
+            <button id="connectHeartbeat" class="btn heartbeat">Connect Heartbeat</button>
+            <button id="connectStatus" class="btn status">Connect Status</button>
+            <button id="connectUser" class="btn user">Connect User</button>
+            <button id="disconnect" class="btn disconnect">Disconnect</button>
+            <button id="clear" class="btn clear">Clear</button>
+        </div>
+        <div class="results">
+            <h2>Results:</h2>
+            <pre id="output"></pre>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

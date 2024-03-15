@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+.container {
+    max-width: 1200px;
+    min-height: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #94bfe4;
+    border-radius: 1em;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.btn {
+    
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5%;
+}
+
+.ticker {
+    background-color: #007bff;
+    color: white;
+}
+
+.matches {
+    background-color: #e58212;
+    color: rgb(244, 242, 242);
+}
+
+.heartbeat {
+    background-color: #6c757d;
+    color: white;
+}
+
+.status {
+    background-color: #17a2b8;
+    color: white;
+}
+
+.user {
+    background-color: #f8f9fa;
+    color: black;
+}
+
+.disconnect {
+    background-color: #f33441;
+    color: white;
+}
+
+.clear {
+    background-color: #62d51b;
+    color: white;
+}
+
+.results {
+    border: 1px solid #ccc;
+    padding: 20px;
+    min-height: 380px;
+    overflow-x: auto; /* Enables horizontal scrolling */
+    white-space: nowrap; /* Prevents text from wrapping to the next line */
+    background-color: rgb(235, 172, 14); /* Changes the background color to black */
+    color: #f8f8f8; /* Changes the text color to bright green */
+    border-radius: 2em;
+}
+
+pre {
+    margin: 0;
+    white-space: pre-wrap;
+    color: inherit; /* Ensures the text color is inherited from the parent */
+}
