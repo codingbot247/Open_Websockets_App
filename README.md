@@ -4,6 +4,8 @@
 
 The Open Websockets App is a simple yet powerful tool designed to test the open/public Coinbase Pro websocket channels. This application allows users to interact with the Coinbase Pro API in real-time, providing a hands-on experience with the cryptocurrency market data.
 
+live link: https://openprochannels.netlify.app/
+
 ## Features
 
 - **Real-time Data Streaming**: Access live market data through Coinbase Pro's websocket channels, including trades, order book updates, and more.
